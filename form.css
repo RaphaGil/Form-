@@ -1,0 +1,212 @@
+body {
+margin: 0px;
+padding: 0px;
+    background-image: url('Moleculas.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h2 {
+
+font-family:Arial, Helvetica, sans-serif;
+color: rgb(3, 64, 139);
+text-align: center;
+font-style: italic;
+
+}
+.form-example{
+    background-color:rgb(52, 217, 233);
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+    width:max-content;
+    color: white;
+    border-radius: 15%;
+    display: grid;
+    justify-content: center;   
+    opacity: 0.8; 
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.form-example1 {
+    background-color:rgb(52, 217, 233);
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    border-radius: 05%;
+    display: grid;
+    justify-content: center;   
+    opacity: 0.8;
+    position: relative;
+   
+}
+
+.form-example1:hover {
+    background-color: white;
+    color: black;
+    opacity: 20;
+}
+
+#form-example2 button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10%;
+
+
+}
+.form-example2:hover {
+    background-color: white;
+    color: black;
+    opacity: 20;
+}
+#popUpName {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 6px;
+   position:relative;
+   top: 2.5cm;
+   left: 20%;
+   transform: translate(-50%, -50% );
+   text-align: center;
+   padding: 0 30px 30px;
+   color: white;
+   display:none;
+   
+}
+#popUpLast {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 6px;
+   position:relative;
+   top: 4cm;
+   left: 20%;
+   transform: translate(-50%, -50% );
+   text-align: center;
+   padding: 0 30px 30px;
+   color: white;
+   display:none;
+}
+#popUpEmail {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 6px;
+   position:relative;
+   top: 8cm;
+   left: 20%;
+   transform: translate(-50%, -50% );
+   text-align: center;
+   padding: 0 30px 30px;
+   color: white;
+   display:none;
+}
+#popUpPhone {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 6px;
+   position: relative;
+   top: 6cm;
+   left: 20%;
+   transform: translate(-50%, -50% );
+   text-align: center;
+   padding: 0 30px 30px;
+   color: white;
+   display:none;
+  
+}
+input {  
+        width: 100%;  
+        border: 2px solid #aaa;  
+        border-radius: 4px;  
+        margin: 8px 0px ;  
+        outline: none;  
+        padding: 8px;  
+        box-sizing: border-box;  
+        transition: 0.3s;  
+
+}
+#popup {
+    width: 400px;
+    background-color: white;
+    border-radius: 6px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50% );
+   text-align: center;
+   padding: 0 30px 30px;
+   color: black;
+   display:none;
+   transition: transform 0.4s, top 0.4s;
+}
+#popup button{
+    width: 50%;
+    margin-top: 50px;
+    padding: 5px 5;
+    background: #6fd649;
+    color: white;
+    border: 0;
+    outline:none;
+    font-size: 14px;
+    border-radius: 4px;
+    size: 2cm;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+#result{
+    width: 600px;
+    background-color: white;
+    border-radius: 6px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50% );
+   text-align: center;
+   padding: 0 30px 30px;
+   color: black;
+   display:none;
+   transition: transform 0.4s, top 0.4s;
+  
+}
+#result button{
+    width: 50%;
+    margin-top: 50px;
+    padding: 10px 10;
+    background: #6fd649;
+    color: white;
+    border: 0;
+    outline:none;
+    font-size: 18px;
+    border-radius: 4px;
+    size: 5cm;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+

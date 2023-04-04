@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Form</title>
+    <link rel="icon" type="image/jpg" href="Form-1.jpg"/>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body></body>
+    
+    <h2>Complete The Form to Contact Us:</h2>
+
+    <div class="form-body">
+        <form action="" method="get" class="form-example">
+        <div class="form-example1">
+            <label for="name" >Name:</label> 
+            <input type="text" name="name" id="name" size="30" placeholder="Type your first name">
+            <input type="text" name="name2" id="name2" size="30" placeholder="Type your last name">
+        </div>
+        <div class="form-example1">
+            <label for="telephone">Enter your telephone number: </label>
+            <input type="tel" name="telephone" id="telephone" placeholder="33333 444 555">
+        </div>
+        <div class="form-example1">
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email" id="email" size="30">
+        </div>
+        <div class="form-example1">
+            <label for="Message">Message: </label>
+            <textarea rows="5" cols="40" input type="text" name="message" id="message" placeholder="Type here"></textarea>
+        </div>
+
+        <div class="form-example1">
+        <label for="subject">Subject: </label>
+        <select name="subject" id="subject" onChange="fun();">
+        <option value="warranty claim">Warranty Claim</option>
+        <option value="support">Support</option>
+        <option value="delivery">Delivery</option>
+        <option value="quality">Quality</option>
+        <option value="sales">Sales</option>
+        </select>
+        </div>
+
+        <div class="form-example1">
+            <label for="File">Attach a file: </label>
+            <input type="file" id="document" name="document" accept=".doc, .docx,.pdf, .xml, .jpg, .jpeg" multiple>  
+        </div>
+
+        <div id="form-example2">
+            <button type= "button" id="btnform" onclick="fun1()">Click me</button>
+        </div>
+</div>
+
+    <div id="popUpName" style="display: none">
+    <h3>I would love to know your name!</h3>
+    </div>
+
+    <div id="popUpLast" style="display: none">
+        <h3>Is that a european surname?</h3>
+    </div>
+    <div id="popUpEmail" style="display: none">
+        <h3>No worries, your data is safe! </h3>
+    </div>
+
+    <div id="popUpPhone" style="display: none">
+        <h3> Be careful, I can call you! </h3>
+    </div>
+     <div id="result" style="display: none" >
+    <h3>Please confirm your information: </h3>
+     <p class="output" id="output1"></p>
+     <button type="submit"  id="finalbtn">Confirm  </button>
+     </div>
+
+     <div id="popup">
+     <p>Thanks for filling up the form!</p>
+     <button type="close" id="btn">Close</button>
+     </div>
+
+</body>
+<script src="form.js"></script>
+</html>
